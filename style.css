@@ -1,0 +1,45 @@
+body {
+    color: #EFF0F6;
+    background-color: #272933;
+    text-align: center;
+    width: 1750px;
+    margin: auto;
+}
+
+td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+    font-size: 24px;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+.table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.table td {
+    border: 2.3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+}
+
+tr:first-child td, td:first-child {
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
